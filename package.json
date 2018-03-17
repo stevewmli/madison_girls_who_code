@@ -1,0 +1,27 @@
+{
+	"name": "madison_girls_who_code",
+	"version": "1.0.0",
+	"description": "shc madison_girls_who_code",
+	"main": "index.html",
+	"dependencies": {
+		"gulp": "^3.9.1",
+		"p5": "0.6.0",
+		"jquery": "3.3.1",
+		"bootstrap": "4.0.0",
+		"underscore": "1.8.3",
+		"font-awesome": "4.7.0"
+	},
+	"devDependencies": {
+		"gulp": "^3.9.1",
+		"gulp-connect": "^5.5.0",
+		"gulp-webserver": "0.9.1",
+		"gulp-sass": "3.1.0",
+		"gulp-plumber": "1.2.0",
+		"opn": "^5.3.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC"
+}
