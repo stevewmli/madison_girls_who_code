@@ -3,16 +3,18 @@ function preload() {
 }
 
 function setup() {
-	var canvas = createCanvas(640, 480);
+	var canvas = createCanvas(800, 600);
 	canvas.parent("draw_area");
+	frameRate(3);
 }
+
 
 function draw() {
 	background("#000000");
-	noFill();
+	fill('blue');
+	rect(0,0,640,480);
+	fill("#ffffff");
 	stroke("#ffffff");
-	for(i = 10; i < 400; i += 20) {
-		rect(i, i, 30, 30);
-//		ellipse(i, i, random(50), random(50));
-	}
+	ellipse(random(640),random(480),30,30);
+	
 }
