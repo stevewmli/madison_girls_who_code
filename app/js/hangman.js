@@ -15,5 +15,8 @@ function draw() {
 
 function keyPressed() {
   var pressed = key.toLowerCase();
-  game.entered(pressed)
+
+  if (pressed.match(/[a-z]/)) {
+    game.entered(pressed)
+  }
 }
